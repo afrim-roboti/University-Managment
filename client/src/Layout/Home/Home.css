@@ -1,0 +1,100 @@
+.section1{
+    width: 100%;
+    min-height: 60vh;
+    float: center;
+    margin-left: 4cm;
+}
+.container{
+    width: 80%;
+    display: block;
+    margin-bottom: 100px;
+}
+.content-section1{
+    float: left;
+    width: 55%;
+}
+.image-section1{
+    float: right;
+    width: 40%;
+}
+.image-section1 img{
+    width: 100%;
+    height: auto;
+}
+.content-section1 .title{
+    margin-top: 20px;
+    color: #2e2065;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section1 .content p{
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.wrapper{
+    margin-top: 0%;
+}
+
+.wrapper h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #2e2065;
+
+}
+
+.abouts{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+.abouts .mva{
+    background:rgb(245, 230, 220);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+}
+.abouts .mva h3{
+    color: #2e2065;
+    font-size: 26px;
+    margin-top: 50px;
+}
+.video{
+    text-align: center;
+}
+
+.video h2{
+    font-size: 40px;
+    color: #2e2065;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+    }
+
+    .content-section1{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section1{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .content-section1 .title{
+        text-align: center;
+        font-size: 19px;
+    }
+
+}

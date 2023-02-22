@@ -1,0 +1,22 @@
+.Action-Button {
+  width: 45px;
+  height: 40px;
+  background-color: #010105;
+  color: #fff;
+  border: none;
+  margin: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+
+.Add-Button {
+  background-color: #010105;
+  color: #fff;
+  border: none;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
